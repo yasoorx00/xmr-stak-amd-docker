@@ -2,9 +2,9 @@
 
 ulimit -l 262144
 
-POOL=
-WALLET=
-PASSWD=
+POOL=pool.supportxmr.com:5555
+WALLET=47H7tKGJKE1CPrvWHcm9N4PgLdKwWYw8QWV2V9Txy3Nh RFK9TW7McxxN88GLbVXpNUZ3c3PjT8iCE9FEiD8JpvEgJfL5rWc
+PASSWD=x
 CURR=monero
 
 if [[ -f /etc/xmr-stak/config.txt && -f /etc/xmr-stak/pools.txt && -f /etc/xmr-stak/amd.txt ]]; then
